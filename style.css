@@ -1,23 +1,5 @@
 
 
-@font-face {
-  font-family: ConcertOne;
-  src: url("fonts/ConcertOne-Regular.ttf");
-}
-
-
-
-@font-face {
-  font-family: Monoton;
-  src: url("fonts/Monoton-Regular.ttf");
-}
-
-
-@font-face {
-  font-family: SpecialElite;
-  src: url("fonts/SpecialElite-Regular.ttf");
-}
-
 
 *,
 *::after,
@@ -36,8 +18,8 @@
   --sg-color: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
   --white: #fff;
   --ham-space: 5px;
-  --main-font: ConcertOne;
-  --s-font: SpecialElite;
+  --main-font: Concert One, cursive;
+  --s-font: Special Elite, cursive;
   --l-font: Monoton;
 }
 
