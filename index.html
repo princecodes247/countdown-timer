@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CountDown</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+        <div class="logo">CountDown</div>
+<div class="ham">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+  </header>
+  <main>
+    <div id="menu">
+      <a href="#" class="options">
+        <div>Home</div>
+      </a>
+      <a href="#" class="options">
+        <div>My Timers</div>
+      </a>
+      <a href="#" class="options">
+        <div>Settings</div>
+      </a>
+      <a href="#" class="options">
+        <div>About</div>
+      </a>
+    </div>
+    <div id="ctr">
+      <div id="t">
+    <div id="addtimer-labels">
+            <label for="hour">Hours</label>
+         
+            <label for="min">Minutes</label>
+        
+            
+            <label for="sec">Seconds</label>
+    </div>
+    </div>
+    <div id="addtimer">
+      <input type="number" class="input" name="hour" id="in-hour" value="0" max="6" />
+      <input type="number" class="input" name="min" id="in-min" value="0" max="6" required/>
+      <input type="number" class="input" name="sec" id="in-sec" value="0" max="6"/>
+
+      <input type="button" name="add" id="add" value="Set" />
+    </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <div class="bar">
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="number">
+              <h2><span id="add-hour"><span class="hour">00</span><span class="column">:</span></span><span class="min">00</span><span class=" column">:</span><span class="sec">00</span></h2>
+            </div>
+          </div>
+          
+            <div class="restart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5 2c-5.629 0-10.212 4.436-10.475 10h-3.025l4.537 5.917 4.463-5.917h-2.975c.26-3.902 3.508-7 7.475-7 4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5c-2.381 0-4.502-1.119-5.876-2.854l-1.847 2.449c1.919 2.088 4.664 3.405 7.723 3.405 5.798 0 10.5-4.702 10.5-10.5s-4.702-10.5-10.5-10.5z"/></svg>
+            </div>
+          <button class="pause">||</button>
+          
+        </div>
+      </div>
+    </div>
+  </main>
+    <footer>
+      <div id="credits">
+        <p><sub>Still Codes</sub></p>
+        <p><sub>@We_Codes247</sub></p>
+      </div>
+    </footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
